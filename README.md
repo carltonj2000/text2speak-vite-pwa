@@ -8,6 +8,12 @@ Use vite with vanilla typescript.
 | preview | http  | 4173 |
 | serve   | https | 2173 |
 
+# To Do
+
+Prompt to update site to new version via implementing the following:
+
+- https://youtu.be/BwVoh4ZB50U?si=A5mnwnuAw_itqia4
+
 # Code History
 
 The code in the repository is based on:
