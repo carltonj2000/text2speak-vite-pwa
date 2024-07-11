@@ -3,7 +3,8 @@ import "./style.css";
 export {};
 
 const defaultText =
-  "Hello Gentlemen, Per Rob's suggestion I have updated the renewal email. I believe we should send out a membership email then a reminder (or two). With that in mind I split Rob's suggestion over two emails so that the second reminder can have new and interesting content. Take a look at the links below and please provide feedback.";
+  // "Hello Gentlemen, Per Rob's suggestion I have updated the renewal email. I believe we should send out a membership email then a reminder (or two). With that in mind I split Rob's suggestion over two emails so that the second reminder can have new and interesting content. Take a look at the links below and please provide feedback.";
+  "No text selected";
 const history = [];
 
 document.addEventListener("DOMContentLoaded", () => {
