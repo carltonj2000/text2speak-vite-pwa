@@ -8,7 +8,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "serve": "PORT=3173 serve dist",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg",
+    "docker:build": "docker build -t text2speak_i .",
+    "docker:dev": "docker run --name text2speak -d -p 8080:80 text2speak_i",
+    "docker:compose:up": "echo docker compose up -d text2speak",
+    "docker:compose:restart": "echo docker compose up -d -no-deps text2speak"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^0.2.4",
